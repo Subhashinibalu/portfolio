@@ -10,7 +10,7 @@ const Contact = () => {
                 
                 <div className='flex flex-wrap justify-center  gap-x-10'>
                 
-                    <form className='   w-1/3 flex flex-col '>
+                    <form className='w-full  md:w-1/3 flex flex-col '>
                    
                     <Label value='Name'/>
                     <TextInput className='mt-2 w-full mb-5' placeholder='Your Name' />

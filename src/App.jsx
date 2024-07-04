@@ -6,6 +6,7 @@ import Skills from './Components/Skills';
 import Projects from './Components/Projects';
 import Contact from './Components/Contact';
 import FooterComp from './Components/FooterComp';
+import Header from './Components/Header';
 
 
 
@@ -14,7 +15,7 @@ import FooterComp from './Components/FooterComp';
 const App = () => {
   return (
     <>
-    
+    <Header/>
        <Home/>
        <About/>
        <Skills/>
