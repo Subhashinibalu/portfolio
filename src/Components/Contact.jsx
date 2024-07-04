@@ -1,6 +1,7 @@
 import { Button, Label, TextInput, Textarea } from 'flowbite-react';
 import React from 'react';
 
+
 const Contact = () => {
     return (
 
@@ -27,7 +28,7 @@ const Contact = () => {
                     <div className=' flex justify-center  rounded-md ' >
                         
                    <div className='p-10 m-10'>
-                   <p className=' text-4xl font-serif font-bold'>Contact Me</p>
+                   <p className=' text-4xl font-serif font-bold  '>Contact Me</p>
                    <br/>
                    <p className='font-sans'>subhashiniulk@gmail.com</p>
                    <br/>

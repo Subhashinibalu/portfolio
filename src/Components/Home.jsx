@@ -16,7 +16,7 @@ const Home = () => {
                
                 <div className='flex    '>
                 
-                <Button href='#about' className='w-fit hover:rounded-full focus:ring-4'>Know More ABout Me</Button>
+                <Button href='#about' className='w-fit hover:rounded-full focus:ring-4'>Know More About Me</Button>
                 </div>
             
             </div>
