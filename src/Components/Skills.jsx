@@ -1,10 +1,12 @@
 import { Accordion,Carousel,ListGroup } from 'flowbite-react';
 import React from 'react';
+import { FaLaptopCode } from "react-icons/fa";
 import { CgCode } from 'react-icons/cg';
 import { DiCss3, DiHtml5, DiJavascript, DiMongodb } from 'react-icons/di';
 import { FaBootstrap, FaCss3, FaCss3Alt, FaGit, FaGithub, FaHtml5, FaJs, FaNodeJs, FaReact } from 'react-icons/fa';
+import { FiArrowDownCircle } from 'react-icons/fi';
 import { ImGit } from 'react-icons/im';
-import { IoSettings } from 'react-icons/io5';
+import { IoArrowDownCircle, IoArrowDownCircleOutline, IoSettings } from 'react-icons/io5';
 import { MdApi } from 'react-icons/md';
 import { RiTailwindCssFill } from 'react-icons/ri';
 import { SiMongodb, SiMongoose, SiNetlify, SiProtonmail, SiRender } from 'react-icons/si';
@@ -16,7 +18,7 @@ const Skills = () => {
  
     return (
         <>
-        <div className='bg-purple-200  py-10' id="skills">
+        <div className='bg-purple-200 p-5  md:py-10' id="skills">
       
             <h2 className='text-xl font-bold text-center '>TECHNOLOGIES I&apos;VE USED</h2>
             
@@ -58,9 +60,11 @@ const Skills = () => {
 
      
   
- 
+ <div className='flex justify-end md:me-16 items-baseline'>
+ <a href='#projects'><abbr title='view projects'><FaLaptopCode className='text-5xl font-thin text-gray-500'/></abbr></a>
+ </div>
 
-        
+       
             
             
         </div>

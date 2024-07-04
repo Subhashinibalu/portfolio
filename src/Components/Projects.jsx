@@ -1,11 +1,12 @@
 import React from 'react';
 import ProjectOne from '../assets/Project1.png'
 import { Card } from 'flowbite-react';
+import { MdOutlineContactPhone } from 'react-icons/md';
 
 const Projects = () => {
     return (
         <>
- <div className='bg-blue-100 p-10 lg:p-16  ' id="projects">
+ <div className='bg-blue-100 p-10 md:p-12 lg:p-16  ' id="projects">
  <h2 className='text-xl font-bold text-center p-8'>PROJECTS I&apos;VE DONE</h2>
 <div className='flex justify-around flex-wrap gap-10 md:p-5'>
 <div className =" w-full md:w-3/4 lg:max-w-sm rounded overflow-hidden shadow-lg">
@@ -65,7 +66,9 @@ const Projects = () => {
   </div>
 </div>
 </div>
-
+<div className='flex justify-end items-baseline mt-5 md:mt-0'>
+ <a href='#contact'><abbr title='contact details'><MdOutlineContactPhone className='text-5xl font-thin text-gray-500'/></abbr></a>
+ </div>
  </div>
 
 

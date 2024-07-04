@@ -2,13 +2,16 @@ import React from 'react';
 import AboutImg from '../assets/su.jpg'
 import { Button } from 'flowbite-react';
 import { BiArrowBack } from 'react-icons/bi';
+import { PiFileCode } from 'react-icons/pi';
+import { FaFileCode, FaRegFileCode } from 'react-icons/fa';
+import { FiDownload } from 'react-icons/fi';
 const About = () => {
     return (
         <>
-            <div className='bg-blue-100 p-24  ' id="about">
+            <div className='bg-blue-100 p-5 md:p-20  ' id="about">
                 
                 <div className='flex flex-wrap justify-center  p-5 gap-x-10'>
-                    <div className='  h-fit   hover:skew-x-3 ' >
+                    <div className='  h-fit    ' >
                         
                     <img src="https://img.freepik.com/free-vector/hand-drawn-flat-design-devops-illustration_23-2149375793.jpg?size=626&ext=jpg&ga=GA1.1.937687561.1710832007&semt=ais_user" className='h-72 mb-10 lg:mb-0 lg:h-60 rounded-full lg:rounded-md ' />
                     </div>
@@ -28,7 +31,7 @@ const About = () => {
                             </div>
                             <div className='flex flex-wrap  justify-between m-2 text-md'>
                             <p><span className='font-semibold'>Experience</span><br/>Fresher</p>
-                            <Button href='#skills' className='hover:rounded-full p-1 m-1 focus:ring-4' >SKILLS</Button>
+                            <Button  className='hover:rounded-full focus:ring-4  m-3' >My Resume&nbsp;<FiDownload className='text-xl'/></Button>
                             </div>
                             
                     </div>
@@ -36,7 +39,9 @@ const About = () => {
                 </div>
                     </div>
                     
-
+                    <div className='flex justify-end items-baseline'>
+ <a href='#skills'><abbr title='skills I have'><FaRegFileCode className='text-5xl font-thin text-gray-500'/></abbr></a>
+ </div>
             </div>
         </>
     );

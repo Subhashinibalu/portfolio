@@ -6,7 +6,7 @@ const Contact = () => {
 
         <>
 
-<div className='bg-blue-200  p-10 ' id="about">
+<div className='bg-blue-200  p-10 ' id="contact">
                 
                 <div className='flex flex-wrap justify-center  gap-x-10'>
                 

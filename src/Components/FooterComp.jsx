@@ -23,8 +23,8 @@ const FooterComp = () => {
             <a href="#">Home</a>
             <a href="#about">About</a>
             <a href="#skills">Skills</a>
-            <a href="#">Projects</a>
-            <a href="#">Contact us</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact us</a>
 
            </div>
            <p className='text-center text-gray-800 mt-5'>&copy;{year} Subhashini || All Rights Reserved</p>
