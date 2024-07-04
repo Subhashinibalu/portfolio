@@ -39,7 +39,7 @@ const About = () => {
                 </div>
                     </div>
                     
-                    <div className='flex justify-end items-baseline'>
+                    <div className='flex justify-end items-baseline animate-bounce '>
  <a href='#skills'><abbr title='skills I have'><FaRegFileCode className='text-5xl font-thin text-gray-500'/></abbr></a>
  </div>
             </div>

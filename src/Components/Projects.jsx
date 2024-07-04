@@ -66,7 +66,7 @@ const Projects = () => {
   </div>
 </div>
 </div>
-<div className='flex justify-end items-baseline mt-5 md:mt-0'>
+<div className='flex justify-end items-baseline mt-5 md:mt-0 animate-bounce'>
  <a href='#contact'><abbr title='contact details'><MdOutlineContactPhone className='text-5xl font-thin text-gray-500'/></abbr></a>
  </div>
  </div>

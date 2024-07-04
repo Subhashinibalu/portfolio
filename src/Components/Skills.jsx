@@ -60,7 +60,7 @@ const Skills = () => {
 
      
   
- <div className='flex justify-end md:me-16 items-baseline'>
+ <div className='flex justify-end md:me-16 items-baseline animate-bounce'>
  <a href='#projects'><abbr title='view projects'><FaLaptopCode className='text-5xl font-thin text-gray-500'/></abbr></a>
  </div>
 
