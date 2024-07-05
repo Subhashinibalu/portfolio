@@ -4,7 +4,7 @@ import { Navbar } from "flowbite-react";
 const Header = () => {
     return (
         <>
-          <Navbar fluid rounded className='bg-blue-200  p-5 shadow-lg  m-4 rounded-full   ' >
+          <Navbar fluid rounded className='bg-blue-200  p-5 shadow-lg  m-4 rounded-full   ' data-aos="fade-in">
         
           <Navbar.Brand href='#'>
      
