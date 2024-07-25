@@ -9,7 +9,20 @@ export default {
     flowbite.content()
   ],
   theme: {
-    extend: {},
+    extend: { backgroundImage: {
+      'homebg': "url('./src/assets/yellowbg.png')",
+      'footer-texture': "url('/img/footer-texture.png')",
+    },
+  colors:{
+   'customyellow':"#FEED02",
+   'customyellow2':"#FBDA00",
+   'customyellow3':"#F8C701"
+   
+  }},
+    fontFamily: {
+      'homefont': "Sriracha",
+      'namefont':"Srisakdi",
+    },
   },
   plugins: [flowbite.plugin()],
 }
